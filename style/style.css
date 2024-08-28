@@ -43,53 +43,76 @@ h1{
     background-color:rgb(247, 205, 21);
     border: none;
 }
-.container-2{
-    display: flex;  
-    background-color: rgb(214, 212, 212);
-    margin-left: 150px;
-    margin-right: 150px;
-    align-items: center;
+.section2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 100px;
+    padding: 10px;
+    background-color:#f2f2f2;
+    max-width: 930px;
+    position: relative;
+    bottom: 25px;
+    z-index: 1;
 
 }
-.title-2{
-    margin: 50px;
-    width: 300px;
-    padding-right: 150px;
-}
-h2{
-    font-size: 40px;
-    color:rgb(247, 205, 21);
-}
-.mitad{
+.caja{
     display: flex;
-    margin-right: 70px;
-    height: 200px;
-    justify-content: space-around;
-    
+    justify-content: center;
 }
-.imagen-1{
-    margin-right: 40px;
+
+.container2{
+    margin: 50px;
+    max-width: 290px;
+
+}
+
+.img-container2{
+    padding: 10px;
+    margin: 15px;
+}
+.img-container2{
+    padding: 10px;
+    margin: 15px;
+}
+
+.img-barras{
+    margin: 10px;
+}
+
+.title-yellow{
+    color:  rgb(247, 205, 21);
+    font-size: 40px;
+    margin: 0px;
+    font-weight: bold;
+}
+.read-more{
+    font-weight: bold;
 }
 .container-3{
     background-color: rgb(247, 205, 21);
     height: 800px;
+    margin-top: -300px;
+    padding-top: 200PX;
 }
 h3{
+    
     margin-left: 40px;
     font-size: 70px;
 }
 .title-3{
     display: flex;
     margin-left: 40px;
-    
+
 }
 .texto-3{
+    width: 30%;  
     padding-top: 20px;
     font-size: 20px;
 }
 .imagen-2{
-    margin-right: 40px;
-    height: 500px;
+    margin-left: 50px;
+    height: 550px;
 }
 .button-3{
     margin-top: 30px;
@@ -98,5 +121,113 @@ h3{
     width: 150px;
     color: white;
     background-color: rgb(5, 5, 5);
+    border: none;
+}
+.second-div{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(214, 212, 212);
+    box-shadow:  40px 36px rgba(10, 10, 10, 0.041);
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+}
+.second-2-div{
+    padding-bottom: 50px;
+    margin-left: 20px;
+    width: 40%;
+}
+.title-4{
+    display: flex;
+    color:  rgb(247, 205, 21);
+    font-size: 50px;
+}
+.button-4{
+    margin-top: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border: none;
+}
+.imagen-4{
+    padding-top: 10px;
+    padding-left: 200px;
+    
+}
+.imagen-4-1{
+    width: 500px;
+}
+.container-5{
+    text-align: center;
+    background-color: black;
+}
+.title-5{
+    padding-top: 60px;
+    color: rgb(247, 205, 21);;
+    font-size: 40px;
+}
+.texto-5{
+    padding-left: 300px;
+    margin: 30px;
+    padding-right: 300px;
+    color: white;
+}
+.button-5{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+    margin: 40px;
+}
+.container-6{
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.div-6{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.title-6{
+    font-size: 40px;
+}
+.texto-6{
+    padding-right: 70px;
+}
+.button-6{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+.container-7{
+    background-color:#f2f2f2;;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.div-7{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.title-7{
+    font-size: 45px;
+}
+.texto-7{
+    padding-right: 70px;
+}
+.button-7{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
     border: none;
 }
