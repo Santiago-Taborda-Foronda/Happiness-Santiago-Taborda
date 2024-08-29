@@ -570,6 +570,7 @@ textarea.form-input {
         margin-left: 0px;
         margin-right: 0px;
         box-shadow: none;
+        width: 480px;
     }
     .imagen-4-1{
         margin-top: 10px;
@@ -584,6 +585,9 @@ textarea.form-input {
     .texto-5{
         padding-left: 100px;
         padding-right: 100px;
+    }
+    .container-5{
+        width: 480px;
     }
     .div-5 img{
         width: 300px;
@@ -601,6 +605,7 @@ textarea.form-input {
     }
     .container-7{
         flex-direction: column;
+        width: 480px;
     }
     .div-7{
         padding-top: 20px;
@@ -614,6 +619,7 @@ textarea.form-input {
         padding-left: 50px;
         padding-right: 50px;
         height: 800px;
+        width: 480px;
     }
     .title-8{
         font-size: 2rem;
