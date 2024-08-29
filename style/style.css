@@ -5,9 +5,12 @@
 }
 header{
     display: flex;
+    position: sticky;
     justify-content: space-between;
-    background-color: rgb(247, 205, 21);
+    background-color: rgb(247, 211, 53);
     align-items: center;
+    top: 0;
+    z-index: 1;
     height: 70px;
 }
 .logo{
@@ -231,3 +234,420 @@ h3{
     background-color:rgb(247, 205, 21);
     border: none;
 }
+
+.container-8{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 500px;
+    width: 100 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    color: rgb(255, 255, 255);
+}
+
+.h1-3{
+    font-size: 3rem;
+    margin: 10px, 0px;
+}
+
+.texts{
+    max-width:80% ;
+    margin: 70px;
+    justify-content: flex-start;
+    text-align: justify;
+}
+.form {
+  background-color: black;
+  margin: 15px;
+  padding: 50px;    
+  max-width: 420px;
+  width: 140%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin-bottom: 4px;
+}
+
+.form-group {
+  width: 48%;
+ 
+}
+
+
+
+.form-input {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 95%;
+  font-size: 16px;
+  background-color: black;
+ 
+}
+
+textarea.form-input {
+  width: 200%;
+  height: 90px;
+  resize: vertical;
+  background-color: transparent;
+  color: #333;
+}
+.title-8{
+    color: rgb(247, 205, 21);
+    font-size: 3rem;
+    margin: 10px, 0px;
+}
+.texto-8{
+    font-size: 25px;
+    color: black;
+}
+.button-8{
+    margin-top: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border: none;
+}
+.container-9{
+    text-align: center;
+    background-color:  rgb(247, 205, 21);
+}
+.title-9{
+    padding-top: 60px;
+    color: black;
+    font-size: 60px;
+}
+.texto-9{
+    padding-left: 300px;
+    font-size: 30PX;
+    margin: 30px;
+    padding-right: 300px;
+    color: black;
+}
+.button-9{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 40px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.logo {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+.footer-column a {
+    color: rgb(247, 205, 21);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.copyright {
+    color: rgb(247, 205, 21);
+    border-top: 1px solid white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    background-color: rgb(247, 205, 21);
+    margin: 5px;
+    border-radius: 60%;
+    border: none;
+    padding: 5px 7px;
+}
+.red-social{
+    width:40%;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+@media screen and (max-width: 550px){
+    header{
+        width: 550px;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container2{
+        padding: 0;
+        margin: 0;
+       
+    }
+    .img-barras{
+        height: 150px;
+        margin: 0px;
+    }
+    .container-3{
+        text-align: center;
+        width: 550px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .title-3{
+        flex-direction: column;
+       
+      
+    }
+    .texto-3-1{
+        padding-left: 110px;
+        width: 200px;
+    }
+    .button-3{
+        margin-left: 120px;
+    }
+    .imagen-2{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 0px;
+        height: 250px;
+        width: 300px;
+    }
+    .second-div{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        box-shadow: none;
+    }
+    .imagen-4-1{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .second-2-div{
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 80%;
+    }
+    .texto-5{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .div-5 img{
+        width: 300px;
+    }
+    .container-6{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div-6{
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .button-6{
+        margin-right: 60px;
+    }
+    .container-7{
+        flex-direction: column;
+    }
+    .div-7{
+        padding-top: 20px;
+    }
+    .button-7{
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
+    .container-8{
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 800px;
+    }
+    .title-8{
+        font-size: 2rem;
+        margin: 3px, 0px;
+    }
+    .texto-8{
+        font-size: 10px;
+        
+    }
+    .button-8{
+        margin-left: 30px;
+        
+    }
+    .container-9{
+        flex-direction: column;
+        width: 550px;
+    }
+    .texto-9{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .div-9 img{
+        width: 400px;
+    }
+    .form{
+        width: 250px;
+    }
+    footer{
+        width: 509px;
+    }
+    ul{
+       
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        width: 480px;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container2{
+        padding: 0;
+        margin: 0;
+       
+    }
+    .img-barras{
+        height: 150px;
+        margin: 0px;
+    }
+    .container-3{
+        text-align: center;
+        width: 479px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .title-3{
+        flex-direction: column;
+       
+      
+    }
+    .texto-3-1{
+        padding-left: 110px;
+        width: 200px;
+    }
+    .button-3{
+        margin-left: 120px;
+    }
+    .imagen-2{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 0px;
+        height: 250px;
+        width: 300px;
+    }
+    .second-div{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        box-shadow: none;
+    }
+    .imagen-4-1{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .second-2-div{
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 80%;
+    }
+    .texto-5{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .div-5 img{
+        width: 300px;
+    }
+    .container-6{
+        flex-direction: column;
+        text-align: center;
+    }
+    .div-6{
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .button-6{
+        margin-right: 60px;
+    }
+    .container-7{
+        flex-direction: column;
+    }
+    .div-7{
+        padding-top: 20px;
+    }
+    .button-7{
+        margin-left: 30px;
+        margin-bottom: 5px;
+    }
+    .container-8{
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 800px;
+    }
+    .title-8{
+        font-size: 2rem;
+        margin: 3px, 0px;
+    }
+    .texto-8{
+        font-size: 10px;
+        
+    }
+    .button-8{
+        margin-left: 30px;
+        
+    }
+    .container-9{
+        flex-direction: column;
+        width: 479px;
+    }
+    .texto-9{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .div-9 img{
+        width: 400px;
+    }
+    .form{
+        width: 250px;
+    }
+    footer{
+        width: 439px;
+    }
+    ul{
+       
+        margin-right: 0px;
+    }
+  
+}
+
