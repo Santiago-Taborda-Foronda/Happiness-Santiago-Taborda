@@ -527,6 +527,10 @@ textarea.form-input {
     header{
         width: 480px;
     }
+    li{
+        margin: 0px;
+        padding: 10px;
+    }
     .container-1{
         flex-direction: column;
     }
@@ -538,6 +542,10 @@ textarea.form-input {
     .img-barras{
         height: 150px;
         margin: 0px;
+    }
+    .section2{
+        margin: 0;
+        margin-bottom: 30px;
     }
     .container-3{
         text-align: center;
@@ -606,6 +614,7 @@ textarea.form-input {
     .container-7{
         flex-direction: column;
         width: 480px;
+        padding: 0;
     }
     .div-7{
         padding-top: 20px;
@@ -616,8 +625,8 @@ textarea.form-input {
     }
     .container-8{
         flex-direction: column;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
         height: 800px;
         width: 480px;
     }
@@ -656,4 +665,5 @@ textarea.form-input {
     }
   
 }
+
 
