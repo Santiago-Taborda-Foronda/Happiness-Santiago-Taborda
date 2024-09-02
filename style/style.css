@@ -443,10 +443,14 @@ textarea.form-input {
         margin-left: 0px;
         margin-right: 0px;
         box-shadow: none;
+        width: 550px;
     }
     .imagen-4-1{
         margin-top: 10px;
         width: 300px;
+    }
+    .container-5{
+        width: 550px;
     }
     .second-2-div{
         padding-bottom: 0px;
@@ -474,6 +478,8 @@ textarea.form-input {
     }
     .container-7{
         flex-direction: column;
+        padding: 0;
+        width: 550px;
     }
     .div-7{
         padding-top: 20px;
@@ -547,17 +553,17 @@ textarea.form-input {
         margin: 0;
         margin-bottom: 30px;
     }
+    
     .container-3{
         text-align: center;
         width: 479px;
     }
     h3{
         font-size: 40px;
+        margin-top: 100px;
     }
     .title-3{
-        flex-direction: column;
-       
-      
+        flex-direction: column; 
     }
     .texto-3-1{
         padding-left: 110px;
@@ -664,6 +670,15 @@ textarea.form-input {
         margin-right: 0px;
     }
   
+}
+@media screen and (max-width: 400px){
+    .caja{
+        margin-left: 100px;
+    }
+    .container-6{
+        padding: 10px;
+        padding-left: 100px;
+    }
 }
 
 
