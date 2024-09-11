@@ -565,7 +565,7 @@ textarea.form-input {
     }
     li{
         margin: 0px;
-        padding: 10px;
+        padding: 5px;
     }
     .container-1{
         flex-direction: column;
@@ -708,6 +708,9 @@ textarea.form-input {
     .container-6{
         padding: 10px;
         padding-left: 100px;
+    }
+    li{
+        padding: 3px;
     }
 }
 
